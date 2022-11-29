@@ -76,6 +76,5 @@ Contribution ✔️
 This is a project for Holberton School by Holberton Students. Pull requests are welcome, if you found a bug, you can report us at the email: 1213@holbertonschool.com or 970@holbertonschool.com. Please make sure to update tests as appropriate.
 Authors 🎭
 
-    Juan Carlos Lopez Sanchez - 1213@holbertonschool.com
-    Lady Marcela Sánchez Moreno - 970@holbertonschool.com
+   
 
