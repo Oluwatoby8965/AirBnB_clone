@@ -168,7 +168,7 @@ class TestConsole(unittest.TestCase):
         with patch('sys.stdout', new=StringIO()) as f:
             self.cnsl.onecmd("all User")
             obj = f.getvalue()
-        my_id = obj[obj.find('(')+1:obj.find(')')]
+        my_id = obj[obj.find('(') + 1:obj.find(')')]
         with patch('sys.stdout', new=StringIO()) as f:
             self.cnsl.onecmd("update User " + my_id)
             self.assertEqual(
@@ -236,4 +236,3 @@ class TestConsole(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    
